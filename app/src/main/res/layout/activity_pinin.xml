@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:backgroundTint="#09E0F8"
+    android:backgroundTintMode="multiply">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/transparentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/logoImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Создайте пин-код"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/circle_indicator" />
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/circle_indicator" />
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/circle_indicator" />
+
+                <View
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/circle_indicator" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/govno"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="1" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="2" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="4" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="5" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="6" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="7" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="8" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:backgroundTint="@android:color/transparent"
+                        android:text="9" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="281dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="#2a2a37"
+            android:padding="16dp"
+            android:text="Выйти"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>
