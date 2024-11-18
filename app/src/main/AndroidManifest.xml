@@ -13,6 +13,27 @@
         android:theme="@style/Theme.Pr"
         tools:targetApi="31">
         <activity
+            android:name=".hall"
+            android:exported="false" />
+        <activity
+            android:name=".bedroom"
+            android:exported="false" />
+        <activity
+            android:name=".office"
+            android:exported="false" />
+        <activity
+            android:name=".bathroom"
+            android:exported="false" />
+        <activity
+            android:name=".kitchen"
+            android:exported="false" />
+        <activity
+            android:name=".livingroom"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".MainMenu"
             android:exported="false" />
         <activity
